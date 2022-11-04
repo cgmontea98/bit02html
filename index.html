@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,53 +18,66 @@
   </head>
 
   <body>
-
     <header>
       <h1>BIENVENIDOS AL RECETARIO DE LA ABUELA</h1>
       <figure>
-        <img src="/imag02/abue.jpg" alt="Ilustracion de la Abuela" width="350px" />
+        <img
+          src="/imag02/abue.jpg"
+          alt="Ilustracion de la Abuela"
+          width="250px"
+        />
         <figcaption>Ilustación de la Abuela con una bandeja</figcaption>
       </figure>
       <hr />
       <nav>
-        <a href="#Introducción">Introducción</a>
-        <br />
-        <a href="/torta-de-banano.html">Torta de banano</a>
+        <ul>
+          <li>Recetas culinarias</li>
+        </ul>
+        <ol>
+          <li><a href="/torta-de-banano.html">Torta de banano</a></li>
+        </ol>
       </nav>
     </header>
 
     <main>
-      
+
       <section id="Introduccion">
         <hr />
         <h2>Introducción</h2>
         <hr />
         <h3>¿Qué es una receta?</h3>
         <p>
-          La palabra <em>receta</em> viene del latín recipere, que significa dar
-          y recibir información. Las recetas de cocina incluidas en un recetario
-          deben estar presentadas de acuerdo con un cierto orden (tipo de
-          preparación: entrada o sopa hasta el postre) y cumplir una serie de
-          requisitos básicos <strong>(lista y dosis precisa de los ingredientes 
-            en un sistema accesible de pesos y medidas, número de porciones o 
-            raciones, y la descripción de los pasos o procedimientos de preparación)
-            </strong>, que pueden ser ampliadas indicando tiempo y temperatura de cocción,
+          La palabra <em>receta</em> viene del latín <strong>recipere</strong>,
+          que significa dar y recibir información. Las recetas de cocina
+          incluidas en un recetario deben estar presentadas de acuerdo con un
+          cierto orden (tipo de preparación: entrada o sopa hasta el postre) y
+          cumplir una serie de requisitos básicos:
+          <blockquote>
+            <strong>
+              (lista y dosis precisa de los ingredientes en un sistema accesible
+              de pesos y medidas, número de porciones o raciones, y la descripción
+              de los pasos o procedimientos de preparación) 
+            </strong>
+          </blockquote>
+          que pueden ser ampliadas indicando tiempo y temperatura de cocción,
           grado de dificultad, valor calórico de los alimentos, sugerencia de
           contornos, recomendaciones médicas para los consumidores, tips o
           trucos de preparación, etc.
         </p>
         <hr/>
-        <br/>
+      </section>
+
+      <article>
         <p>
           Acontinuación veremos una receta de la
           <a href="/torta-de-banano.html">Torta de Banano de la Abuela</a>
         </p>
-      </section>
+      </article>
     </main>
 
     <footer>
       <p><small>Reservados los derechos</small></p>
+      <p><a href="#Introduccion">Subir</a></p>
     </footer>
-
   </body>
 </html>
